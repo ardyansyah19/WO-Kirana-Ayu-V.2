@@ -1,4 +1,5 @@
-# Kirana Ayu Bridal — Website Rias Pengantin
+# Kirana Wedding Organizer V.2
+By Ahmad Riko Dyansyah
 
 Website satu halaman (single page) untuk usaha jasa rias pengantin, dibangun dengan HTML, CSS, dan JavaScript murni (tanpa framework, tanpa proses build).
 
