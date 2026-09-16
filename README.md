@@ -30,20 +30,6 @@ python3 -m http.server 8000
 
 Lalu buka `http://localhost:8000` di browser.
 
-## Bagian yang Perlu Diganti Sebelum Dipakai Live
-
-| Yang diganti | Lokasi file | Keterangan |
-|---|---|---|
-| Nomor WhatsApp | `js/script.js` → variabel `WA_NUMBER` | Dipakai form booking, format `62812xxxxxxx` tanpa tanda `+` |
-| Nomor WhatsApp (tombol melayang) | `index.html` → cari `wa.me/6281234567890` di bagian bawah `<body>` | Ganti dengan nomor yang sama seperti di atas |
-| Email kontak | `index.html` → bagian `#booking`, `hello@kiranaayubridal.id` | |
-| Nomor telepon di section booking | `index.html` → bagian `#booking`, `+62 8xx-xxxx-xxxx` | |
-| Harga & isi paket | `index.html` → bagian `#paket` (3 kartu: Akad Sederhana, Akad & Resepsi, Prewedding + Adat) | |
-| Nama usaha | Cari & ganti teks `Kirana Ayu Bridal` di seluruh `index.html` (logo, judul tab, footer) | Nama ini masih usulan, silakan ganti sesuai nama usaha Anda |
-| Alamat & peta lokasi | `index.html` → bagian `#lokasi`, iframe Google Maps & teks alamat | Saat ini pakai alamat Jl. Kedung Baruk No.140, Surabaya |
-| Foto galeri | `assets/images/` | Ganti/tambah file `gambar1.jpg` s.d. `gambar8.jpg`, lalu sesuaikan caption di `index.html` bagian `#galeri` |
-| Jam operasional | `index.html` → bagian `#lokasi` | |
-
 ## Palet Warna (dari swatch yang Anda kirim)
 
 Semua warna diatur lewat CSS variable di awal `css/style.css`, jadi ganti di satu tempat akan otomatis berubah di seluruh halaman:
